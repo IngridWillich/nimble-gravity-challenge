@@ -27,6 +27,7 @@ export default function JobCard({ job, candidate }: JobCardProps) {
         uuid: candidate.uuid,
         jobId: job.id,
         candidateId: candidate.candidateId,
+        applicationId: candidate.applicationId,
         repoUrl,
       });
 
